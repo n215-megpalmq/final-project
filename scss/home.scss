@@ -528,7 +528,7 @@ color: white;
     
     }
     hr {
-      
+      width: 100%;
     }
 
     .quote{
@@ -569,6 +569,9 @@ color: white;
   }
 
 @media all and (max-width:660px) {
+  hr{
+    width: 100%;
+  }
   .john{
     height: fit-content;
     padding-top: 100px;

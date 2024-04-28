@@ -1,0 +1,73 @@
+.redHero{
+    width: 981px;
+    height: 300px;
+    background: linear-gradient(rgb(238,67,103,0.6), rgb(238,67,103,0.6)),url(../images/blog.jpg);
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: saturate(150%);
+      margin: 0 auto;
+      margin-top: 50.5px;
+      display: flex;
+
+      .square{
+        width: 155.25px;
+        height: 155.25px;
+        background-color: #EE4367;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 72px;
+    
+        .text{
+          display: flex;
+          flex-direction: column;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          color: white;
+          justify-content: center;
+          text-align: center;
+          font-size: 31px;
+        span{
+
+          font-weight: bold;
+          font-size: 55px;
+        }
+      }
+            }
+}
+.headers{
+    width: $content-width;
+    margin: 0 auto;
+    margin-top: 56px;
+    .head{
+        font-family: gillReg;
+        color: #EE4367;
+        font-size: 20px;
+    }
+    .lorem1{
+        width: 856px;
+        height: 125px;
+        font-family: gillReg;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .lorem2{
+        width: 856px;
+        height: 125px;
+        font-family: gillReg;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .head2{
+        font-family: gillReg;
+        color: #EE4367;
+        font-size: 20px;
+    }
+    .lorem3{
+        width: 856px;
+        height: 125px;
+        font-family: gillReg;
+        margin-top: 30px;
+        font-size: 20px;
+        margin-bottom: 151px;
+    }
+}

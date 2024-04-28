@@ -18,7 +18,7 @@ changeRoute();
 
 
 $(document).ready(function () {
-    loadPage("about");
+    loadPage("blog1");
     initURLListener();
     
 });
