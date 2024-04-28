@@ -18,7 +18,7 @@ changeRoute();
 
 
 $(document).ready(function () {
-    loadPage("home");
+    loadPage("about");
     initURLListener();
     
 });
