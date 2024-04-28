@@ -1,0 +1,115 @@
+@font-face {
+  font-family: gillL;
+  src: url(../fonts/Gill-Sans-Font-Family/Gill\Sans\Light.otf)
+}
+@font-face {
+  font-family: prox;
+  src: url(../fonts/Mark\Simonson\\Proxima\Nova\Condensed\Light\TheFontsMaster.com.otf);
+}
+
+.hero{
+      background: linear-gradient(rgb(255,209,64,0.7), rgb(255,209,64,0.7)),url(../images/home-hero.jpg);
+      height:500px;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: saturate(150%);
+      
+      
+      
+      
+      nav {
+        height: 65px;
+        width: $content-width;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 99;
+        
+       a {
+          text-decoration: none;
+          color: #fff;
+          justify-content: space-evenly;
+          margin-right: 10px;
+          margin-left: 10px;
+          margin-top: 47px;    letter-spacing: 2px;
+        }
+      
+        .logo {
+          width: 92px;
+          height:42px;
+          border:2px solid white;
+           h4{
+            margin-top: 23px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 3px;
+            color: white;
+        }
+        }
+        .links {
+          min-width: 300px;
+          height: 42px;
+          align-items: center;
+          margin-top: 47px;
+          font-size: 15px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          .pipe {
+            color: #EE4367;
+          }
+      
+        }
+      
+      }
+      hr {
+        color: #fff;
+        width: $content-width;
+        margin: 0 auto;
+        margin-top:20px;
+        border: 1px solid #fff;
+        
+        
+      }
+
+      .header{
+        margin: 0 auto;
+        background-color: pink;
+        height: 200px;
+        width: 300px;
+        margin-top: 62.5px;
+
+        .title{
+          font-family: ;
+        }
+      }
+      
+      
+}
+@media all and (max-width:920px) {
+    nav {
+      width: 100%;
+     a {
+        
+      }
+    
+      .logo {
+        
+         h4{
+         
+      }
+      }
+      .links {
+        
+        .pipe {
+         
+        }
+    
+      }
+    
+    }
+    hr {
+      
+    }
+  }
