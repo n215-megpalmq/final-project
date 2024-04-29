@@ -298,3 +298,34 @@ span{
 }
 
 }
+
+@media all and (max-width:1000px){
+    .blo{
+        margin-left: 20px;
+      }
+    .blogs-top1{
+        flex-direction: column;
+        margin: 30px;
+        width: 100%;
+        height: fit-content;
+        .blogn1{
+            margin-left: 59px;
+
+            .im{
+                width: 100%;
+            }
+        }
+    }
+    .blogs-mid{
+        flex-direction: column;
+        margin: 30px;
+        .blogn1{
+            margin-left: 59px;
+        }
+    }
+    .blog-last{
+        flex-direction: column;
+        margin-left: 89px;
+        
+    }
+}

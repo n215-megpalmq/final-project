@@ -1,3 +1,4 @@
+.display{
 .redHero{
     width: 981px;
     height: 300px;
@@ -71,4 +72,27 @@
         font-size: 20px;
         margin-bottom: 151px;
     }
+}
+}
+@media all and (max-width: 1000px) {
+  .display{
+    width: 100%;
+  .redHero {
+      width: 100%;
+      
+  }
+
+  .headers {
+      width: fit-content;
+      margin: 20px;
+  }
+
+  .headers .lorem1,
+  .headers .lorem2,
+  .headers .lorem3 {
+      width: 100%;
+      margin: 20px;
+      height: fit-content;
+  }
+}
 }

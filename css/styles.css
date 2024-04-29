@@ -1524,7 +1524,35 @@ hr {
   width: 380px;
 }
 
-.redHero {
+@media all and (max-width: 1000px) {
+  .blo {
+    margin-left: 20px;
+  }
+  .blogs-top1 {
+    flex-direction: column;
+    margin: 30px;
+    width: 100%;
+    height: fit-content;
+  }
+  .blogs-top1 .blogn1 {
+    margin-left: 59px;
+  }
+  .blogs-top1 .blogn1 .im {
+    width: 100%;
+  }
+  .blogs-mid {
+    flex-direction: column;
+    margin: 30px;
+  }
+  .blogs-mid .blogn1 {
+    margin-left: 59px;
+  }
+  .blog-last {
+    flex-direction: column;
+    margin-left: 89px;
+  }
+}
+.display .redHero {
   width: 981px;
   height: 300px;
   background: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/blog.jpg);
@@ -1536,7 +1564,7 @@ hr {
   margin-top: 50.5px;
   display: flex;
 }
-.redHero .square {
+.display .redHero .square {
   width: 155.25px;
   height: 155.25px;
   background-color: #EE4367;
@@ -1544,7 +1572,7 @@ hr {
   margin: 0 auto;
   margin-top: 72px;
 }
-.redHero .square .text {
+.display .redHero .square .text {
   display: flex;
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -1553,41 +1581,40 @@ hr {
   margin-left: 40px;
   font-size: 31px;
 }
-.redHero .square .text span {
+.display .redHero .square .text span {
   font-weight: bold;
   font-size: 55px;
 }
-
-.headers {
+.display .headers {
   width: 980px;
   margin: 0 auto;
   margin-top: 56px;
 }
-.headers .head {
+.display .headers .head {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem1 {
+.display .headers .lorem1 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .lorem2 {
+.display .headers .lorem2 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .head2 {
+.display .headers .head2 {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem3 {
+.display .headers .lorem3 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
@@ -1596,7 +1623,26 @@ hr {
   margin-bottom: 151px;
 }
 
-.redHero {
+@media all and (max-width: 1000px) {
+  .display {
+    width: 100%;
+  }
+  .display .redHero {
+    width: 100%;
+  }
+  .display .headers {
+    width: fit-content;
+    margin: 20px;
+  }
+  .display .headers .lorem1,
+  .display .headers .lorem2,
+  .display .headers .lorem3 {
+    width: 100%;
+    margin: 20px;
+    height: fit-content;
+  }
+}
+.display .redHero {
   width: 981px;
   height: 300px;
   background: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/blog.jpg);
@@ -1608,7 +1654,7 @@ hr {
   margin-top: 50.5px;
   display: flex;
 }
-.redHero .square {
+.display .redHero .square {
   width: 155.25px;
   height: 155.25px;
   background-color: #EE4367;
@@ -1616,7 +1662,7 @@ hr {
   margin: 0 auto;
   margin-top: 72px;
 }
-.redHero .square .text {
+.display .redHero .square .text {
   display: flex;
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -1626,41 +1672,40 @@ hr {
   text-align: center;
   font-size: 31px;
 }
-.redHero .square .text span {
+.display .redHero .square .text span {
   font-weight: bold;
   font-size: 55px;
 }
-
-.headers {
+.display .headers {
   width: 980px;
   margin: 0 auto;
   margin-top: 56px;
 }
-.headers .head {
+.display .headers .head {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem1 {
+.display .headers .lorem1 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .lorem2 {
+.display .headers .lorem2 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .head2 {
+.display .headers .head2 {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem3 {
+.display .headers .lorem3 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
@@ -1669,7 +1714,26 @@ hr {
   margin-bottom: 151px;
 }
 
-.redHero {
+@media all and (max-width: 1000px) {
+  .display {
+    width: 100%;
+  }
+  .display .redHero {
+    width: 100%;
+  }
+  .display .headers {
+    width: fit-content;
+    margin: 20px;
+  }
+  .display .headers .lorem1,
+  .display .headers .lorem2,
+  .display .headers .lorem3 {
+    width: 100%;
+    margin: 20px;
+    height: fit-content;
+  }
+}
+.display .redHero {
   width: 981px;
   height: 300px;
   background: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/blog.jpg);
@@ -1681,7 +1745,7 @@ hr {
   margin-top: 50.5px;
   display: flex;
 }
-.redHero .square {
+.display .redHero .square {
   width: 155.25px;
   height: 155.25px;
   background-color: #EE4367;
@@ -1689,7 +1753,7 @@ hr {
   margin: 0 auto;
   margin-top: 72px;
 }
-.redHero .square .text {
+.display .redHero .square .text {
   display: flex;
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -1698,41 +1762,40 @@ hr {
   text-align: center;
   font-size: 31px;
 }
-.redHero .square .text span {
+.display .redHero .square .text span {
   font-weight: bold;
   font-size: 55px;
 }
-
-.headers {
+.display .headers {
   width: 980px;
   margin: 0 auto;
   margin-top: 56px;
 }
-.headers .head {
+.display .headers .head {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem1 {
+.display .headers .lorem1 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .lorem2 {
+.display .headers .lorem2 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .head2 {
+.display .headers .head2 {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem3 {
+.display .headers .lorem3 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
@@ -1741,7 +1804,26 @@ hr {
   margin-bottom: 151px;
 }
 
-.redHero {
+@media all and (max-width: 1000px) {
+  .display {
+    width: 100%;
+  }
+  .display .redHero {
+    width: 100%;
+  }
+  .display .headers {
+    width: fit-content;
+    margin: 20px;
+  }
+  .display .headers .lorem1,
+  .display .headers .lorem2,
+  .display .headers .lorem3 {
+    width: 100%;
+    margin: 20px;
+    height: fit-content;
+  }
+}
+.display .redHero {
   width: 981px;
   height: 300px;
   background: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/blog.jpg);
@@ -1753,7 +1835,7 @@ hr {
   margin-top: 50.5px;
   display: flex;
 }
-.redHero .square {
+.display .redHero .square {
   width: 155.25px;
   height: 155.25px;
   background-color: #EE4367;
@@ -1761,7 +1843,7 @@ hr {
   margin: 0 auto;
   margin-top: 72px;
 }
-.redHero .square .text {
+.display .redHero .square .text {
   display: flex;
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -1770,41 +1852,40 @@ hr {
   text-align: center;
   font-size: 31px;
 }
-.redHero .square .text span {
+.display .redHero .square .text span {
   font-weight: bold;
   font-size: 55px;
 }
-
-.headers {
+.display .headers {
   width: 980px;
   margin: 0 auto;
   margin-top: 56px;
 }
-.headers .head {
+.display .headers .head {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem1 {
+.display .headers .lorem1 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .lorem2 {
+.display .headers .lorem2 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .head2 {
+.display .headers .head2 {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem3 {
+.display .headers .lorem3 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
@@ -1813,7 +1894,26 @@ hr {
   margin-bottom: 151px;
 }
 
-.redHero {
+@media all and (max-width: 1000px) {
+  .display {
+    width: 100%;
+  }
+  .display .redHero {
+    width: 100%;
+  }
+  .display .headers {
+    width: fit-content;
+    margin: 20px;
+  }
+  .display .headers .lorem1,
+  .display .headers .lorem2,
+  .display .headers .lorem3 {
+    width: 100%;
+    margin: 20px;
+    height: fit-content;
+  }
+}
+.display .redHero {
   width: 981px;
   height: 300px;
   background: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/blog.jpg);
@@ -1825,7 +1925,7 @@ hr {
   margin-top: 50.5px;
   display: flex;
 }
-.redHero .square {
+.display .redHero .square {
   width: 155.25px;
   height: 155.25px;
   background-color: #EE4367;
@@ -1833,7 +1933,7 @@ hr {
   margin: 0 auto;
   margin-top: 72px;
 }
-.redHero .square .text {
+.display .redHero .square .text {
   display: flex;
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -1843,47 +1943,190 @@ hr {
   font-size: 31px;
   text-align: center;
 }
-.redHero .square .text span {
+.display .redHero .square .text span {
   font-weight: bold;
   font-size: 55px;
 }
-
-.headers {
+.display .headers {
   width: 980px;
   margin: 0 auto;
   margin-top: 56px;
 }
-.headers .head {
+.display .headers .head {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem1 {
+.display .headers .lorem1 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .lorem2 {
+.display .headers .lorem2 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
 }
-.headers .head2 {
+.display .headers .head2 {
   font-family: gillReg;
   color: #EE4367;
   font-size: 20px;
 }
-.headers .lorem3 {
+.display .headers .lorem3 {
   width: 856px;
   height: 125px;
   font-family: gillReg;
   margin-top: 30px;
   font-size: 20px;
   margin-bottom: 151px;
+}
+
+@media all and (max-width: 1000px) {
+  .display {
+    width: 100%;
+  }
+  .display .redHero {
+    width: 100%;
+  }
+  .display .headers {
+    width: fit-content;
+    margin: 20px;
+  }
+  .display .headers .lorem1,
+  .display .headers .lorem2,
+  .display .headers .lorem3 {
+    width: 100%;
+    margin: 20px;
+    height: fit-content;
+  }
+}
+.contitle {
+  font-family: gillReg;
+  font-size: 25px;
+  margin: 0 auto;
+  display: flex;
+  width: 980px;
+  margin-top: 65.5px;
+}
+
+.all {
+  width: 980px;
+  margin: 0 auto;
+}
+.all .line3 {
+  width: 229px;
+  margin-left: 0px;
+}
+.all .flex {
+  display: flex;
+  margin-top: 65.5px;
+}
+.all .flex .contact-form .YN input {
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gillReg;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.all .flex .contact-form .EA input {
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gillReg;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-top: 21px;
+}
+.all .flex .contact-form .Comp input {
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gillReg;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-top: 21px;
+}
+.all .flex .contact-form .Mess textarea {
+  width: 529px;
+  height: 199px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gillReg;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-top: 21px;
+  text-align: left;
+  padding-top: 20px;
+}
+.all .flex .contact-form .SM button {
+  width: 168px;
+  height: 60px;
+  background-color: #EE4367;
+  border: none;
+  font-family: gillReg;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.all .flex .map {
+  background-image: url(../images/map.jpg);
+  width: 400px;
+  height: 442px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 50px;
+}
+
+@media all and (max-width: 1082px) {
+  .contitle {
+    margin-left: 30px;
+  }
+  .line3 {
+    margin-left: 30px;
+  }
+  .all {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .all .line3 {
+    width: 229px;
+    margin-left: 0px;
+  }
+  .all .flex {
+    flex-direction: column;
+  }
+  .all .flex .contact-form {
+    margin: 30px;
+  }
+  .all .flex .contact-form .YN input {
+    width: 50%;
+  }
+  .all .flex .contact-form .EA input {
+    width: 50%;
+  }
+  .all .flex .contact-form .Comp input {
+    width: 50%;
+  }
+  .all .flex .contact-form .Mess textarea {
+    width: 50%;
+  }
+  .all .flex .map {
+    margin-bottom: 30px;
+  }
+  .footer {
+    height: 600px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
